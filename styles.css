@@ -1,0 +1,38 @@
+:root {
+    --color-bg: #282424;
+    --color-fg: #dedede;
+    --color-link: #2a799d
+  }
+  
+
+@media (prefers-color-scheme: light) {
+    :root {
+      --color-bg: #dedede;
+      --color-fg: #282424;
+    }
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+
+a {
+    color: var(--color-link);
+}
+
+img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.title {
+    align-items: center;
+    display: flex;
+}
+
+.name {
+    padding-left: 30px;
+}
